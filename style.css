@@ -4,3 +4,42 @@
 .tabs__content.active {
   display: block; /* по умолчанию показываем нужный блок */
 }
+.days-tabs{
+  min-width: 165px;
+  border: 1px #e8e8e8 solid;
+  border-left: none;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-left: 15px;
+  margin-top: 30px;
+  font-family: "Roboto";
+  font-size: 16px;
+  padding: 22px 35px 22px 0;
+  cursor: pointer;
+}
+.days-tabs li{
+  display: block;
+  padding: 12px 0px;
+}
+.days-tabs li + li{
+  border-top: 1px solid rgb(232, 232, 232);
+}
+.days-tabs li span.mob{
+  display: none;
+}
+.days-tabs li.active {
+  font-family: "Roboto Bold", sans-serif;
+  padding-left: 18px;
+  position: relative;
+}
+.days-tabs li.active:after {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  background-color: rgb(138, 199, 30);
+  width: 5px;
+  height: 5px;
+  content: "";
+  border-radius: 50%;
+}
