@@ -8,76 +8,95 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="slick/slick.css">
 
 </head>
 
 <body>
-<div class="tabs  vertical">
 
-  <ul class="tabs__caption">
-    <li class="active">
-      <span class="desctop">Понеділок</span>
-      <span class="mob">ПН</span>
-    </li>
-    <li>
-      <span class="desctop">Вівторок</span>
-      <span class="mob">ВТ</span>
-    </li>
-    <li>
-      <span class="desctop">Середа</span>
-      <span class="mob">СР</span>
-    </li>
-    <li>
-      <span class="desctop">Четвер</span>
-      <span class="mob">ЧТ</span>
-    </li>
-    <li>
-      <span class="desctop">П'ятниця</span>
-      <span class="mob">ПТ</span>
-    </li>
-    <li>
-      <span class="desctop">Субота</span>
-      <span class="mob">СБ</span>
-    </li>
-    <li>
-      <span class="desctop">Неділля</span>
-      <span class="mob">НД</span>
-    </li>
-  </ul>
+<section class="sect4">
+<div class="food-cards__container">
+  <div class="food-cards__container__slide tabs">
+    <h3>Программа питания «Be free of weight detox»</h3>
+    <p>Трехразовое питание на 1000 ккал/день</p>
 
-  <div class="tabs__content  active">
-    пн
+    <!-- days-slider -->
+    <li class="flex ">
+      <!--days-slider (days)-->
+      <ul class="tabs__caption">
+        <li class="active">
+          <span class="desctop">Понедельник</span>
+          <span class="mob">ПН</span>
+        </li>
+        <li>
+          <span class="desctop">Вторник</span>
+          <span class="mob">ВТ</span>
+        </li>
+        <li>
+          <span class="desctop">Среда</span>
+          <span class="mob">СР</span>
+        </li>
+        <li>
+          <span class="desctop">Четверг</span>
+          <span class="mob">ЧТ</span>
+        </li>
+        <li>
+          <span class="desctop">Пятница</span>
+          <span class="mob">ПТ</span>
+        </li>
+        <li>
+          <span class="desctop">Суббота</span>
+          <span class="mob">СБ</span>
+        </li>
+        <li>
+          <span class="desctop">Воскресенье</span>
+          <span class="mob">ВС</span>
+        </li>
+      </ul>
+      <!--days-slider (days)-->
+
+      <div class="tabs__content  active">
+        пн
+      </div>
+
+      <div class="tabs__content ">
+        вт
+      </div>
+
+      <div class="tabs__content">
+        ср
+      </div>
+
+      <div class="tabs__content">
+        чт
+      </div>
+
+      <div class="tabs__content">
+        пт
+      </div>
+
+      <div class="tabs__content">
+        сб
+      </div>
+
+      <div class="tabs__content">
+        нд
+      </div>
+      <!-- days-slider__container -->
+            <!-- days-slider__container : END -->
+    </div>
+
+    <!-- days-slider -->
   </div>
-
-  <div class="tabs__content">
-    вт
-  </div>
-
-  <div class="tabs__content">
-    ср
-  </div>
-
-  <div class="tabs__content">
-    чт
-  </div>
-
-  <div class="tabs__content">
-    пт
-  </div>
-
-  <div class="tabs__content">
-    сб
-  </div>
-
-  <div class="tabs__content">
-    нд
-  </div>
-
 </div>
+</section>
 <!-- .tabs -->
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+<script src="slick/slick.min.js"></script>
 <script src="main.js"></script>
 </html>
