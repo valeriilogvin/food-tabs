@@ -36,15 +36,20 @@ $('.food-of-the-day').slick({
       breakpoint: 768,
       settings: {
         slidesToShow: 2,
-        infinite: false
       }
     },
     {
       breakpoint: 641,
       settings: {
         slidesToShow: 1,
-        infinite: true
       }
-    }
+    },
+    // {
+    //   breakpoint: 480,
+    //   settings: {
+    //       slidesToShow: 1,
+    //       centerMode: true,
+    //   }
+    // }
   ]
 });

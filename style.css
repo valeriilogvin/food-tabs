@@ -139,9 +139,28 @@
 }
 @media (max-width: 640px) {
     .sect4 .slick-slider .slick-track{
-        width: 1365px!important;
+        width: 2300px!important;
     }
     .sect4 .food-of-the-day__slide.slick-slide {
-        width: 241px!important;
+        width: 458px!important;
+    }
+    .sect4 .food-of-the-day__slide + .food-of-the-day__slide {
+        margin-left: 0px;
+    }
+}
+@media (max-width: 479px) {
+    .sect4 .slick-slider .slick-track{
+        width: 1800px;important;
+    }
+    .sect4 .food-of-the-day__slide.slick-slide {
+        width: 358px!important;
+    }
+}
+@media (max-width: 380px) {
+    .sect4 .slick-slider .slick-track{
+        width: 1600px;important;
+    }
+    .sect4 .food-of-the-day__slide.slick-slide {
+        width: 318px!important;
     }
 }
