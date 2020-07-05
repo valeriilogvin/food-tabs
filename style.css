@@ -107,6 +107,7 @@
     }
     .days-tabs li{
         display: inline-block;
+        padding: 10px 10px;
     }
     .days-tabs li span.desctop{
         display: none;
@@ -117,12 +118,36 @@
     .days-tabs li + li{
         border-top: none;
     }
+    .days-tabs li.active{
+        padding-left: 10px;
+        position: relative;
+    }
+    .days-tabs li.active:before {
+        content: '';
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background: none;
+        border-radius: 50%;
+        border: 1px #8ac71e solid;
+        outline: none;
+        cursor: pointer; }
+    button.my-slick-prev:hover,
+    button.my-slick-next:hover {
+        border: 1px #8ac71e solid;
+        -webkit-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease; }
+    button.my-slick-prev:hover .icon-arrow-l,
+    button.my-slick-prev:hover .icon-arrow-r,
+    button.my-slick-next:hover .icon-arrow-l,
+    button.my-slick-next:hover .icon-arrow-r {
+        fill: #8ac71e; }
     .days-tabs li.active:after{
         display: none;
-        padding-left: 0;
-    }
-    .days-tabs li.active{
-        padding-left: 0;
     }
     .sect4 .slick-slider .slick-track{
         width: 1550px!important;
