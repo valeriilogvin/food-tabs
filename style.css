@@ -5,6 +5,7 @@
   display: block; /* по умолчанию показываем нужный блок */
 }
 .days-tabs{
+    box-sizing: border-box;
   min-width: 165px;
   border: 1px #e8e8e8 solid;
   border-left: none;
@@ -48,4 +49,99 @@
 }
 .sect4 .food-of-the-day__slide.slick-slide{
   width: 293px!important;
+    margin: 30px 15px 34px;
+
+}
+.sect4 .food-of-the-day__slide.slick-slide:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 15px;
+}
+.sect4 .food-of-the-day{
+    margin-left: 15px;
+    padding-left: 0;
+}
+@media (max-width: 1200px) {
+    .sect4 .slick-slider .slick-track{
+        width: 1275px!important;
+    }
+    .sect4 .food-of-the-day__slide.slick-slide {
+        width: 223px!important;
+    }
+    .days-tabs{
+        padding: 18px 35px 18px 0px;
+    }
+    .days-tabs li{
+        padding: 8px 0px;
+    }
+    .sect4 .food-of-the-day{
+        margin-left: 0;
+        padding-left: 30px;
+    }
+    .sect4 .food-of-the-day__slide.slick-slide{
+        margin: 30px 0 34px;
+    }
+    .sect4 .food-of-the-day__slide + .food-of-the-day__slide {
+        margin-left: 30px; }
+    .sect4 .food-of-the-day__slide.slick-slide:hover{
+        box-shadow: none;
+    }
+}
+@media (max-width: 1000px) {
+    .sect4 .slick-slider .slick-track{
+        width: 1365px!important;
+    }
+    .sect4 .food-of-the-day__slide.slick-slide {
+        width: 241px!important;
+    }
+}
+@media (max-width: 767px) {
+    .days-tabs {
+        border: none;
+        border-radius: 25px;
+        width: 100%;
+        padding: 0;
+        text-align: center; }
+    .days-tabs{
+        margin-left: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .days-tabs li{
+        display: inline-block;
+    }
+    .days-tabs li span.desctop{
+        display: none;
+    }
+    .days-tabs li span.mob{
+        display: block;
+    }
+    .days-tabs li + li{
+        border-top: none;
+    }
+    .days-tabs li.active:after{
+        display: none;
+        padding-left: 0;
+    }
+    .days-tabs li.active{
+        padding-left: 0;
+    }
+    .sect4 .slick-slider .slick-track{
+        width: 1550px!important;
+    }
+    .sect4 .food-of-the-day__slide.slick-slide {
+        width: 293px!important;
+    }
+    .sect4 .food-of-the-day__slide + .food-of-the-day__slide {
+        margin-left: 15px;
+    }
+    .sect4 .food-of-the-day {
+        padding-left: 0px;
+    }
+}
+@media (max-width: 640px) {
+    .sect4 .slick-slider .slick-track{
+        width: 1365px!important;
+    }
+    .sect4 .food-of-the-day__slide.slick-slide {
+        width: 241px!important;
+    }
 }

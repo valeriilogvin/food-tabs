@@ -36,7 +36,7 @@ $('.food-of-the-day').slick({
       breakpoint: 768,
       settings: {
         slidesToShow: 2,
-        infinite: true
+        infinite: false
       }
     },
     {
