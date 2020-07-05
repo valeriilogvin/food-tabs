@@ -14,7 +14,7 @@
   });
 })(jQuery);
 $('.food-of-the-day').slick({
-  infinite: true,
+  infinite: false,
   lazyLoad: 'ondemand',
   slidesToShow: 3,
   draggable: false,
@@ -48,4 +48,3 @@ $('.food-of-the-day').slick({
     }
   ]
 });
-

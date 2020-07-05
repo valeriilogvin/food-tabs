@@ -43,3 +43,9 @@
   content: "";
   border-radius: 50%;
 }
+.sect4 .slick-slider .slick-track{
+  width: 1625px!important;
+}
+.sect4 .food-of-the-day__slide.slick-slide{
+  width: 293px!important;
+}
